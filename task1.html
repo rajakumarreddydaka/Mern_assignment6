@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form1</title>
+    <style>
+        body{
+            background-image: url("handpic.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            text-align: center;
+        }
+        .underlined{
+            text-align: center;
+            border: none;
+            border-bottom: 2px solid;
+            background: none;
+            margin-bottom: 30px;
+            width: 200px;
+            display: block;    
+            color :white
+        }
+        form{
+            background-color: rgba(5, 0, 0, 0.86);
+            height: 450px;
+            width: 450px;
+            margin-left: 35%;
+            margin-top: 10%;
+        }
+        button{
+            width :200px;
+            color: white;
+            font-size: 18px;
+            font-family: Arial;
+            font-weight: bold;
+            margin-top: 40px;
+        }
+        img{
+            float: top;
+            position: absolute;
+      top: 100px;   /* y-coordinate */
+      left: 720px;  /* x-coordinate */
+      width: 100px;
+      height: auto;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <div>
+            <img style="width :100px; border-radius: 50%;"src ="https://static.vecteezy.com/system/resources/previews/000/546/107/original/businessman-in-suit-head-vector-icon.jpg">
+            <h1 style="color :white ;  padding-top:80px;">LOGIN WINDOW</h1>
+            <input  style =" margin-left: 120px; padding-top: 10px;"class="underlined" type="text"id="email" name ="email" placeholder="Your Email Address">
+            <input style="margin-left: 120px;"class="underlined" type="text"id="email" name ="email" placeholder="Your Password">
+            <input  type="checkbox" value="Agree with terms & Condition"><b style="color :white">Agree with <a style="color :white" href="nothing" target="_self">Terms & Condition</a></b>
+            <br>
+            <button style="background-color: rgb(19, 235, 19);">Login</button>
+        </div>
+    </form>
+</body>
+</html>
